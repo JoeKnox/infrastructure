@@ -21,3 +21,15 @@ This is my learning project:
     -1 Raspberry Pi - Debian
     -1 Tablet Windows 10
     
+ 5/13/23 4:30AM- Woke up early to work on school projects. The internet was not working.  little pieces would get through every 20 minutes or so but not enough to work.  I went through the normal process of restarts.  No success.  I began trying to diagnose if it was computer, network, bridge or ISP  issues... First I started with pinging the router from my computer. GOOD (not the computer signal).  then Ping across the subent to another Device GOOD (router good).  Pinged to another subnet GOOD.(load balancer good)   Ping the Bridge/Modem  GOOD (Probably not the Bridge/Modem).  Checked out the bridge logs to find that the bridge was reporting a DoS attack "Smurf"  Which seems unlikely and after an internet search says that that is a tendency of netgear to give false positives on DoS attacks.  Leads me to Signal from ISP. 
+
+5/13/23 5:30PM   through out the day the situation had improved. Noticably by 1:00PM after the rain had stopped for 2 hours.  by 5:30 PM we realize we have reliable service.  This makes me begin to wonder if the signal cable isnt being compromised by water
+
+5/13/23 9:30PM   Service become flakey again.  (Began to Rain lightly)   
+
+5/14/23  5:30 AM  No internet service.   The ground is very wet.   Contact Spectrum through Phone Chat.  ("Something suspicious on the line")
+
+5/14/23  4:30 PM   Service tech confirms that it is the signal into the house.  He confirms the issue at the pole.  Diagnosis "There is a reflection of the signal down the line like a refelction from water" Schedules maintainence to fix the line.
+
+5/15/23  5:30 PM   no sign of rain, nor maintenance.... but signal appears to be holding 
+
