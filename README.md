@@ -33,3 +33,9 @@ This is my learning project:
 
 5/15/23  5:30 PM   no sign of rain, nor maintenance.... but signal appears to be holding 
 
+5/20/23  Setting up Linux Firewalls and emails
+        -could not get data in or out despite allowing Ports 443, 80, and 25 on UFW firewall when UFW was enabled.   Also had issues with the screen blacking out once UFW was installed.  (see Photos)
+5/23/23 No luck   Reached out to school instructors as the firewall unit was what we were working on.  No response.
+5/31/23 finally returning to project
+  -removed GPU and using motherboard's GPU-Stable
+  -specifically had to call out to allow outgoing http, tcp, https and smtp protocols in UFW firewall to allow use of internet and email.
