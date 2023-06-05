@@ -41,3 +41,17 @@ This is my learning project:
 5/31/23 finally returning to project
   -removed GPU and using motherboard's GPU-Stable
   -specifically had to call out to allow outgoing http, tcp, https and smtp protocols in UFW firewall to allow use of internet and email.
+ 
+6/5/23   
+  -TP-link (ER605) firewall/load balancer/switch device.  
+  -On friday night there was a substantial power surge that was enough to trip breakers and GFCI's  (I think more voltage leaked to the ground more so than surge but moot point) .  In the morning I did not have internet service.  All of the lights on all of the bridge/modems/routers showed that it should be fine.
+  -Instead of a hard reset I sat at the computer and tried to log into the modem to reset it.  I could not ping it 
+  -I pinged the firewall.   its there.  I replugged around the firewall box to the modem.  internet works fine.   
+  -change to the original configuration and open Chrome to log into the firewall box.  Change some settings/restart it.   cannot get data through the box. and it said that the "dhcp link [was] down".  after hours of trying the same things just different ways.  
+  -I concede it must be the physical firewall box,  and I go buy a new one.   
+  -I put it in and out of the box, it works fine. I go to login to setup a mirrored port for my monitoring and.... its dies... same situation as hours ago...restarts, internet searching (bypassing the physical firewall), thinking it was my computer, even though nothing else was connecting to the internet... 
+  -nothing works. I shut everything down and go to bed, wake up sunday, start everything up.  
+  -Open up FIREFOX  and login to the firewall box and everything works perfectly fine and I can make changes.  
+  -I already have chrome up so I tried to login and make a couple of changes to the firewall-everything dies-
+  -immediately, bring up firefox, log in and everything is restored to working order.  
+  -after a total of about 6 or so hours of struggle, all that I needed to do was try a different browser.  IDK pretty remedial but maybe file that away as something when nothing makes sense. 
